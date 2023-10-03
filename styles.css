@@ -60,24 +60,8 @@
   border-bottom-color: #fff;
 }
 
-.lead::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 2px;
-  height: 100%;
-  background: #4FC3F7;
-  animation: cursorBlink 0.8s steps(3) infinite;
+.scrolling {
+  background: black;
+  opacity: 80%;
+  transition: all 0.5s;
 }
-
-.typing h2 {
-  position: relative;
-  color: #4FC3F7;
-  letter-spacing: 5px;
-  font-size: 4rem;
-  overflow: hidden;
-  margin-bottom: 0;
-  animation: type 5s steps(11) infinite;
-}
-
